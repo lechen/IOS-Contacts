@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1BB239B7-28A6-47EB-918A-7C8A42B8832E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>0410通讯录2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2A550A184D3725C43E00B391E5B42F38ABBB0CF6</key>
+		<string>github.com:lechen/IOS-Contacts.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>0410通讯录2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2A550A184D3725C43E00B391E5B42F38ABBB0CF6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:lechen/IOS-Contacts.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2A550A184D3725C43E00B391E5B42F38ABBB0CF6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A550A184D3725C43E00B391E5B42F38ABBB0CF6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>0410%E9%80%9A%E8%AE%AF%E5%BD%952</string>
+		</dict>
+	</array>
+</dict>
+</plist>

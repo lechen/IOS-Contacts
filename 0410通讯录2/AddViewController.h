@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddViewController : UIViewController
+@class AddViewController;
+@class ContactsModel;
 
+@protocol AddViewControllerDelegate <NSObject>
+
+@optional
+-(void)addViewController:(AddViewController *)addViewController WithContracts:(ContactsModel *)Contacts;
+
+@end
+
+@interface AddViewController : UIViewController
+@property (nonatomic,weak) id<AddViewControllerDelegate> delegate;
 @end

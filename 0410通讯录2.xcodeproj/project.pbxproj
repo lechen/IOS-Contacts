@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B9A18B21A7770BB005CBE68 /* ContactsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A18B11A7770BB005CBE68 /* ContactsModel.m */; };
 		8BE983761A74FD9E001DFA15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE983751A74FD9E001DFA15 /* main.m */; };
 		8BE983791A74FD9E001DFA15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE983781A74FD9E001DFA15 /* AppDelegate.m */; };
 		8BE9837F1A74FD9E001DFA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE9837D1A74FD9E001DFA15 /* Main.storyboard */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B9A18B01A7770BB005CBE68 /* ContactsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsModel.h; sourceTree = "<group>"; };
+		8B9A18B11A7770BB005CBE68 /* ContactsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsModel.m; sourceTree = "<group>"; };
 		8BE983701A74FD9E001DFA15 /* 0410通讯录2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0410通讯录2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE983741A74FD9E001DFA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BE983751A74FD9E001DFA15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,9 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				8BE983991A74FFBB001DFA15 /* Classes */,
-				8BE9837D1A74FD9E001DFA15 /* Main.storyboard */,
-				8BE983801A74FD9E001DFA15 /* Images.xcassets */,
-				8BE983821A74FD9E001DFA15 /* LaunchScreen.xib */,
 				8BE983731A74FD9E001DFA15 /* Supporting Files */,
 			);
 			path = "0410通讯录2";
@@ -107,6 +107,9 @@
 		8BE983731A74FD9E001DFA15 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8BE9837D1A74FD9E001DFA15 /* Main.storyboard */,
+				8BE983801A74FD9E001DFA15 /* Images.xcassets */,
+				8BE983821A74FD9E001DFA15 /* LaunchScreen.xib */,
 				8BE983741A74FD9E001DFA15 /* Info.plist */,
 				8BE983751A74FD9E001DFA15 /* main.m */,
 			);
@@ -165,6 +168,8 @@
 		8BE9839C1A750016001DFA15 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8B9A18B01A7770BB005CBE68 /* ContactsModel.h */,
+				8B9A18B11A7770BB005CBE68 /* ContactsModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			files = (
 				8BE983AD1A75328A001DFA15 /* MBProgressHUD+MJ.m in Sources */,
 				8BE983A61A7500A9001DFA15 /* AddViewController.m in Sources */,
+				8B9A18B21A7770BB005CBE68 /* ContactsModel.m in Sources */,
 				8BE983791A74FD9E001DFA15 /* AppDelegate.m in Sources */,
 				8BE983761A74FD9E001DFA15 /* main.m in Sources */,
 				8BE983A31A750090001DFA15 /* ListViewController.m in Sources */,
@@ -488,6 +494,7 @@
 				8BE983951A74FD9E001DFA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BE983961A74FD9E001DFA15 /* Build configuration list for PBXNativeTarget "0410通讯录2Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +503,7 @@
 				8BE983981A74FD9E001DFA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

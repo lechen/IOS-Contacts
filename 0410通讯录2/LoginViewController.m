@@ -73,6 +73,7 @@
 - (IBAction)rememberPwdEvent {
     if (!self.rememberPwdSwitch.isOn) {
         self.autoLoginSwitch.on = NO;
+        [self.autoLoginSwitch setOn:NO animated:YES];
     }
 }
 /**
@@ -80,7 +81,7 @@
  */
 - (IBAction)autoLoginEvent {
     if (self.autoLoginSwitch.isOn) {
-        self.rememberPwdSwitch.on = YES;
+        [self.rememberPwdSwitch setOn:YES animated:YES];
     }
 }
 /**
@@ -91,7 +92,7 @@
         //正在登陆提示
         [MBProgressHUD showMessage:@"正在登陆..."];
         //等待2s
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             //移除遮盖
             [MBProgressHUD hideHUD];
             //跳转
@@ -100,5 +101,13 @@
     }else{
         [MBProgressHUD showError:@"账号或密码错误！"];
     }
+}
+
+/**
+ *  在跳转前会调用
+ */
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    UIViewController *controller = segue.destinationViewController;
+    controller.title = [NSString stringWithFormat:@"%@的联系人",self.accountField.text];
 }
 @end
