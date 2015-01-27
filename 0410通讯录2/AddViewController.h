@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddViewController.h
 //  0410通讯录2
 //
 //  Created by LE on 15/1/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AddViewController : UIViewController
 
 @end
-
